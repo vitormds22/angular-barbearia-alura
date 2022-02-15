@@ -1,0 +1,34 @@
+.cabecalho {
+  background-color: #BBBBBB;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto ;
+}
+
+.menu  {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+
+.menu__itens {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.menu__itens__links {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.menu__itens__links:hover {
+  color: #C78C19;
+  text-decoration: underline;
+}
