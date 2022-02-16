@@ -1,5 +1,5 @@
 .cabecalho {
-  background-color: #BBBBBB;
+  background-color: #e2dddd;
   padding: 20px 0;
 }
 
@@ -10,13 +10,19 @@
 }
 
 .menu  {
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
   top: 110px;
   right: 0px;
 }
 
+.menu__lista {
+  display: flex;
+  align-items: center;
+}
+
 .menu__itens {
-  display: inline;
+  // display: inline;
   margin: 0 0 0 15px;
 }
 
