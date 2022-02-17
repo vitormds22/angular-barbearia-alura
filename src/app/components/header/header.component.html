@@ -3,8 +3,8 @@
       <nav class="menu">
             <img src="{{ '/assets/imgs/' + src }}" alt="{{ alt }}">
             <ul class="menu__lista">
-                <li class="menu__itens"><a class="menu__itens__links" href="./index.html">Home</a></li>
-                <li class="menu__itens"><a class="menu__itens__links" href="./produtos.html">Produtos</a></li>
+                <li class="menu__itens"><a class="menu__itens__links" [routerLink]="['']">Home</a></li>
+                <li class="menu__itens"><a class="menu__itens__links" [routerLink]="['produtos']">Produtos</a></li>
                 <li class="menu__itens"><a class="menu__itens__links" href="./contato.html">Contato</a></li>
             </ul>
         </nav>
