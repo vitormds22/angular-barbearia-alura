@@ -1,0 +1,27 @@
+.card {
+    text-align: center;
+    transition: 0.5s;
+    width: 18rem;
+
+    &__title {
+      padding-top: 15px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    &__price {
+      font-size: 22px;
+      font-weight: bold;
+    }
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid rgb(226, 188, 20);
+    transition: 0.8s;
+}

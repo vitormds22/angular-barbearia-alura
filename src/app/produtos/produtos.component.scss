@@ -1,0 +1,16 @@
+.wrapper__products {
+    display: flex;
+    margin: 20px 0 20px 0;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.subtitulo {
+    padding: 10px;
+}
+
+.subtitulo::after {
+    width: 190px;
+    left: 45%;
+}
+

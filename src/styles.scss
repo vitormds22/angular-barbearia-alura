@@ -46,3 +46,20 @@ table {
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.subtitulo {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.subtitulo::after {
+  background-color: #888888;
+  content: '';
+  display: block;
+  height: 4px;
+  left: 43%;
+  margin-top: 1rem;
+  position: absolute;
+  width: 250px;
+}
